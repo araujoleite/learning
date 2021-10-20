@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<script>
+   
+   function pulaLinha(){
+       document.write("<br>");
+   }
+
+   function paragrafo(texto){
+       document.write("<p>" + texto + "</p>");
+       pulaLinha();
+   }
+
+   function titulo(texto){
+       document.write("<h1>" + texto + "</h1>");
+   }
+
+   var ano = 2021;
+   var anosPassados = ano - 1500;
+   var nascimentos = Math.round(ano / 28);
+
+   titulo("Desde 1500 tivemos em média:");
+   paragrafo(nascimentos + " gerações.");
+
+</script>

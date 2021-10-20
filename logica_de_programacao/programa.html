@@ -2,7 +2,30 @@
 
 <script>
 
-    document.write("Alan nasceu em " + (2021 - 31) + "<br>");
-    document.write("Barney nasceu em " + (2021 - 43));
+    function pulaLinha(){
 
+        document.write("<br><br>");
+
+    }
+
+    function mostra(mensagem){
+
+        document.write(mensagem);
+        pulaLinha();
+
+    }
+
+    var ano = 2021;
+
+    mostra("Alan tem " + (ano - 1990) + " anos");
+    
+    mostra("Géssica tem " + (ano - 1990) + " anos");
+
+    ano = 2006
+    
+    mostra("Boçal tem " + (ano - 1991) + " anos");
+    
+    mostra("Gustavo tem " + (ano - 1990) + " anos");
+
+    
 </script>
