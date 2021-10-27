@@ -7,7 +7,7 @@
     <title>Meu Programinha</title>
     <style>
         body {
-            background-color: rgb(226, 207, 178);
+            background-color: rgb(226, 207, 178); /* Isso é um comentário em CSS */
             color: rgb(66, 42, 42);
             font: normal 20pt Arial;
         }
@@ -17,12 +17,16 @@
     </style>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
+    <h1>Olá, mundo!</h1> <!-- Isso ~e um comentário em HTML -->
     <p>Tem texto aqui.</p>
     <script>
-        window.alert('Meu teste de alert');
-        window.confirm('O que achou?'); //Janela com botão de cancelar
-        window.prompt('Digite "cachorro":'); //Inseção de nome
+        var n1 = Number(window.prompt('Digite um número: '));
+        var n2 = Number(window.prompt('Digite outro número: '));
+        var s = n1 + n2;
+        alert('A soma dos dois números é ' + String(s));
+        // (number + number) para adição
+        // (string + string) para concatenação
+        // prompt entrega uma string
     </script>
 </body>
 </html>
